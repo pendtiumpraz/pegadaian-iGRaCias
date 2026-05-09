@@ -1,0 +1,253 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../**/*.jsx';
+
+/* ─────────────────────────────────────────────────────────────
+   i-GRaCias Design Tokens — source of truth
+   Mirrors the standalone reference (HEX, not oklch).
+   See: D:\AI\Pegadean\Reference\GCG-handoff\gcg\project\
+   ───────────────────────────────────────────────────────────── */
+:root {
+    /* brand palette — emerald/forest green */
+    --green-900: #0a3023;
+    --green-800: #0f4a37;
+    --green-700: #13654b;
+    --green-600: #187c5b;
+    --green-500: #1f9c72;
+    --green-400: #3eb78c;
+    --green-300: #6dd1ad;
+    --green-100: #d6f0e3;
+    --green-50:  #eaf6ee;
+
+    /* gold accent */
+    --gold-600: #b8862c;
+    --gold-500: #d6a23c;
+    --gold-300: #eccd7a;
+    --gold-100: #fbf0d2;
+
+    /* status colors */
+    --red-600:   #b8392a;
+    --red-100:   #fbe4df;
+    --amber-600: #c98114;
+    --amber-100: #fbecd1;
+    --blue-600:  #2e5a8a;
+    --blue-100:  #e0ecf8;
+
+    /* warm neutral ink scale */
+    --ink-900: #0e1614;
+    --ink-800: #1c2723;
+    --ink-700: #374441;
+    --ink-600: #5a6864;
+    --ink-500: #7a8884;
+    --ink-400: #9aa6a2;
+    --ink-300: #c2cbc7;
+    --ink-200: #dde3e0;
+    --ink-100: #eef2ef;
+    --ink-50:  #f6f8f6;
+    --paper:   #fbfcfa;
+
+    /* radii */
+    --radius-sm: 6px;
+    --radius:    10px;
+    --radius-lg: 14px;
+
+    /* shadows (warm green tint) */
+    --shadow-sm: 0 1px 2px rgba(10, 48, 35, 0.06);
+    --shadow:    0 1px 3px rgba(10, 48, 35, 0.06), 0 4px 12px rgba(10, 48, 35, 0.04);
+    --shadow-lg: 0 8px 32px rgba(10, 48, 35, 0.10);
+
+    /* typography */
+    --font-ui:      'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+    --font-display: 'Fraunces', Georgia, serif;
+
+    /* layout */
+    --sidebar-w: 248px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Tailwind v4 theme bridge — exposes the tokens as Tailwind
+   utilities (font-display, font-mono, font-sans, etc.).
+   ───────────────────────────────────────────────────────────── */
+@theme {
+    --font-sans:    'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+    --font-display: 'Fraunces', Georgia, serif;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Base / globals
+   ───────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
+html {
+    font-family: var(--font-ui);
+    color-scheme: light;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--ink-50);
+    color: var(--ink-900);
+    font-family: var(--font-ui);
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+}
+
+button { font-family: inherit; cursor: pointer; }
+a      { color: inherit; text-decoration: none; }
+input, select, textarea { font-family: inherit; font-size: inherit; color: inherit; }
+
+::-webkit-scrollbar       { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--ink-300); border-radius: 6px; border: 2px solid var(--ink-50); }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-400); }
+::-webkit-scrollbar-track { background: transparent; }
+
+/* ─────────────────────────────────────────────────────────────
+   Display + mono utility classes — match reference standalone
+   ───────────────────────────────────────────────────────────── */
+.display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.mono {
+    font-family: var(--font-mono);
+    font-feature-settings: 'tnum' 1, 'cv11' 1;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Legacy compat aliases — keep older pages rendering until
+   they are migrated to the i-GRaCias HEX tokens directly.
+   These map the old generic names onto the reference palette.
+   ───────────────────────────────────────────────────────────── */
+:root {
+    --bg:         var(--ink-50);
+    --bg-card:    var(--paper);
+    --bg-muted:   var(--ink-100);
+    --border:     var(--ink-200);
+    --text:       var(--ink-900);
+    --text-muted: var(--ink-600);
+    --primary:    var(--green-600);
+    --primary-fg: var(--paper);
+    --ring:       var(--green-500);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Reference primitives extension
+   ─────────────────────────────────────────────────────────────
+   Class hooks consumed by the new shared primitives in
+   resources/js/Components (RightRail, MasterDetail, Toolbar,
+   DetailRow, Tag, AIGradientBanner, AICard, etc.).
+
+   Each primitive also applies its layout via inline styles so
+   these rules act as semantic fallbacks / overrides when used
+   from blade or when consumers want to tweak via cascade.
+   ───────────────────────────────────────────────────────────── */
+
+/* Detail-page layouts */
+.right-rail {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 24px;
+    align-items: start;
+}
+
+.master-detail {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 16px;
+    align-items: start;
+}
+
+@media (max-width: 1024px) {
+    .right-rail,
+    .master-detail {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Toolbar inside Card padding=0 */
+.toolbar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--ink-200);
+    background: #fff;
+}
+
+/* Detail rail field rows */
+.detail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--ink-100);
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-row .detail-row-label,
+.detail-row .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-600);
+    font-weight: 600;
+}
+
+.detail-row .detail-row-value,
+.detail-row .value {
+    color: var(--ink-900);
+    font-weight: 600;
+    font-size: 12.5px;
+}
+
+/* Section title cluster */
+.section-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+/* AI gradient hero */
+.ai-gradient {
+    background: linear-gradient(135deg, var(--green-900) 0%, var(--green-700) 100%);
+    color: #fff;
+    border-radius: var(--radius-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+/* AI suggestion card */
+.ai-card {
+    border: 1px solid var(--ink-200);
+    border-radius: var(--radius-lg);
+    background: #fff;
+}
+
+/* Sidebar nav count badge — used by AppLayout SidebarLink */
+.nav-count {
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.06);
+    color: #7fb59a;
+    min-width: 18px;
+    text-align: center;
+    line-height: 1.4;
+}
