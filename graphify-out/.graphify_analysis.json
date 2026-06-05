@@ -1,0 +1,1692 @@
+{
+  "communities": {
+    "0": [
+      "architecture_grc_system",
+      "architecture_kpi_kri_kci",
+      "architecture_m1_risk",
+      "architecture_m2_audit",
+      "architecture_m3_compliance",
+      "architecture_m4_incident",
+      "architecture_m5_policy",
+      "architecture_m6_loss",
+      "architecture_principled_performance",
+      "architecture_three_lines",
+      "backend_plan_inertia_pages",
+      "backend_plan_rbac",
+      "backend_plan_routes",
+      "backend_plan_services",
+      "readme_ai_assistant",
+      "readme_ai_ingest",
+      "readme_aigradientbanner",
+      "readme_aml_cft",
+      "readme_audit_module",
+      "readme_compliance_module",
+      "readme_idesk",
+      "readme_igracias",
+      "readme_incident_module",
+      "readme_kri_module",
+      "readme_loss_module",
+      "readme_pegadean_portal",
+      "readme_policy_module",
+      "readme_portal_sso",
+      "readme_regulation_module",
+      "readme_risk_module",
+      "readme_techstack",
+      "roadmap_legacy_apps",
+      "roadmap_phase0_prep",
+      "roadmap_phase1_foundation",
+      "roadmap_phase2_risk",
+      "roadmap_phase3_incident",
+      "roadmap_phase4_compliance",
+      "roadmap_phase5_loss",
+      "roadmap_phase6_audit",
+      "roadmap_phase7_analytics",
+      "roadmap_phase8_legacy",
+      "roadmap_plan",
+      "tech_recommendations_laravel_stack",
+      "tech_recommendations_postgres",
+      "tech_recommendations_rest_api",
+      "tech_recommendations_shared_packages",
+      "tech_recommendations_spatie_packages",
+      "tech_recommendations_stancl_tenancy"
+    ],
+    "1": [
+      "composer",
+      "composer_allow_plugins_pestphp_pest_plugin",
+      "composer_allow_plugins_php_http_discovery",
+      "composer_config",
+      "composer_config_allow_plugins",
+      "composer_config_optimize_autoloader",
+      "composer_config_preferred_install",
+      "composer_config_sort_packages",
+      "composer_description",
+      "composer_extra",
+      "composer_extra_laravel",
+      "composer_keywords",
+      "composer_laravel_dont_discover",
+      "composer_license",
+      "composer_minimum_stability",
+      "composer_name",
+      "composer_prefer_stable",
+      "composer_require",
+      "composer_require_dev",
+      "composer_require_dev_fakerphp_faker",
+      "composer_require_dev_laravel_pail",
+      "composer_require_dev_laravel_pint",
+      "composer_require_dev_laravel_sail",
+      "composer_require_dev_mockery_mockery",
+      "composer_require_dev_nunomaduro_collision",
+      "composer_require_dev_phpunit_phpunit",
+      "composer_require_inertiajs_inertia_laravel",
+      "composer_require_laravel_framework",
+      "composer_require_laravel_tinker",
+      "composer_require_php",
+      "composer_require_tightenco_ziggy",
+      "composer_schema",
+      "composer_scripts",
+      "composer_scripts_dev",
+      "composer_scripts_post_autoload_dump",
+      "composer_scripts_post_create_project_cmd",
+      "composer_scripts_post_root_package_install",
+      "composer_scripts_post_update_cmd",
+      "composer_scripts_pre_package_uninstall",
+      "composer_scripts_setup",
+      "composer_scripts_test",
+      "composer_type"
+    ],
+    "2": [
+      "app_http_controllers_losseventcontroller_php_request",
+      "app_http_controllers_riskregistercontroller_php_request",
+      "backend_plan_escalation",
+      "backend_plan_heatmap",
+      "backend_plan_models",
+      "controllers_losseventcontroller",
+      "controllers_losseventcontroller_losseventcontroller_destroy",
+      "controllers_losseventcontroller_losseventcontroller_index",
+      "controllers_losseventcontroller_losseventcontroller_show",
+      "controllers_losseventcontroller_losseventcontroller_store",
+      "controllers_losseventcontroller_losseventcontroller_update",
+      "controllers_riskregistercontroller",
+      "controllers_riskregistercontroller_riskregistercontroller_create",
+      "controllers_riskregistercontroller_riskregistercontroller_destroy",
+      "controllers_riskregistercontroller_riskregistercontroller_edit",
+      "controllers_riskregistercontroller_riskregistercontroller_forcedelete",
+      "controllers_riskregistercontroller_riskregistercontroller_index",
+      "controllers_riskregistercontroller_riskregistercontroller_restore",
+      "controllers_riskregistercontroller_riskregistercontroller_show",
+      "controllers_riskregistercontroller_riskregistercontroller_store",
+      "controllers_riskregistercontroller_riskregistercontroller_trash",
+      "controllers_riskregistercontroller_riskregistercontroller_update",
+      "database_schema_action_plans",
+      "database_schema_audit_findings",
+      "database_schema_audit_plans",
+      "database_schema_controls",
+      "database_schema_fraud_alerts",
+      "database_schema_incidents",
+      "database_schema_kris",
+      "database_schema_loss_events",
+      "database_schema_notifications",
+      "database_schema_organizational_units",
+      "database_schema_policies",
+      "database_schema_rcsa_cycles",
+      "database_schema_regulations",
+      "database_schema_users",
+      "database_schema_working_papers",
+      "lossevent",
+      "riskregister"
+    ],
+    "3": [
+      "finding_index",
+      "finding_index_btnsecondary",
+      "finding_index_btnsmall",
+      "finding_index_btnsmalldanger",
+      "finding_index_cardbase",
+      "finding_index_findingindex",
+      "finding_index_formatdate",
+      "finding_index_isoverdue",
+      "finding_index_severity_options",
+      "finding_index_severitytone",
+      "finding_index_status_options",
+      "finding_show",
+      "finding_show_btndanger",
+      "finding_show_btnprimary",
+      "finding_show_btnsecondary",
+      "finding_show_cardbase",
+      "finding_show_findingshow",
+      "finding_show_formatdate",
+      "finding_show_inputstyle",
+      "finding_show_isoverdue",
+      "finding_show_severity_options",
+      "finding_show_severitylabel",
+      "finding_show_severitytone",
+      "finding_show_status_options",
+      "incident_index",
+      "incident_index_btndanger",
+      "incident_index_btnprimary",
+      "incident_index_btnsecondary",
+      "incident_index_btnsmall",
+      "incident_index_cardstyle",
+      "incident_index_filterselect",
+      "incident_index_formatdatemono",
+      "incident_index_insidenindex",
+      "incident_index_kategori_options",
+      "incident_index_severity_options",
+      "incident_index_status_options",
+      "incident_index_tabs"
+    ],
+    "4": [
+      "actionplan",
+      "app_http_controllers_actionplancontroller_php_request",
+      "app_http_controllers_auth_logincontroller_php_request",
+      "app_http_controllers_compliancecontroller_php_request",
+      "app_http_controllers_kricontroller_php_request",
+      "auth_logincontroller",
+      "auth_logincontroller_logincontroller",
+      "auth_logincontroller_logincontroller_login",
+      "auth_logincontroller_logincontroller_logout",
+      "auth_logincontroller_logincontroller_portalcallback",
+      "auth_logincontroller_logincontroller_portalredirect",
+      "auth_logincontroller_logincontroller_showlogin",
+      "controllers_actionplancontroller",
+      "controllers_actionplancontroller_actionplancontroller_destroy",
+      "controllers_actionplancontroller_actionplancontroller_index",
+      "controllers_actionplancontroller_actionplancontroller_store",
+      "controllers_actionplancontroller_actionplancontroller_update",
+      "controllers_compliancecontroller",
+      "controllers_compliancecontroller_compliancecontroller_aml",
+      "controllers_compliancecontroller_compliancecontroller_culture",
+      "controllers_compliancecontroller_compliancecontroller_index",
+      "controllers_compliancecontroller_compliancecontroller_qa",
+      "controllers_controller",
+      "controllers_controller_controller",
+      "controllers_dashboardcontroller",
+      "controllers_dashboardcontroller_dashboardcontroller_index",
+      "controllers_kricontroller",
+      "controllers_kricontroller_kricontroller",
+      "controllers_kricontroller_kricontroller_create",
+      "controllers_kricontroller_kricontroller_destroy",
+      "controllers_kricontroller_kricontroller_edit",
+      "controllers_kricontroller_kricontroller_index",
+      "controllers_kricontroller_kricontroller_store",
+      "controllers_kricontroller_kricontroller_update",
+      "kri"
+    ],
+    "5": [
+      "app_http_controllers_auditplancontroller_php_request",
+      "app_http_controllers_incidentcontroller_php_request",
+      "auditplan",
+      "controllers_auditplancontroller",
+      "controllers_auditplancontroller_auditplancontroller_create",
+      "controllers_auditplancontroller_auditplancontroller_destroy",
+      "controllers_auditplancontroller_auditplancontroller_edit",
+      "controllers_auditplancontroller_auditplancontroller_forcedelete",
+      "controllers_auditplancontroller_auditplancontroller_index",
+      "controllers_auditplancontroller_auditplancontroller_restore",
+      "controllers_auditplancontroller_auditplancontroller_show",
+      "controllers_auditplancontroller_auditplancontroller_store",
+      "controllers_auditplancontroller_auditplancontroller_trash",
+      "controllers_auditplancontroller_auditplancontroller_update",
+      "controllers_incidentcontroller",
+      "controllers_incidentcontroller_incidentcontroller_create",
+      "controllers_incidentcontroller_incidentcontroller_destroy",
+      "controllers_incidentcontroller_incidentcontroller_edit",
+      "controllers_incidentcontroller_incidentcontroller_forcedelete",
+      "controllers_incidentcontroller_incidentcontroller_index",
+      "controllers_incidentcontroller_incidentcontroller_restore",
+      "controllers_incidentcontroller_incidentcontroller_show",
+      "controllers_incidentcontroller_incidentcontroller_store",
+      "controllers_incidentcontroller_incidentcontroller_trash",
+      "controllers_incidentcontroller_incidentcontroller_update",
+      "controllers_losseventcontroller_losseventcontroller_create",
+      "incident",
+      "models_organizationalunit",
+      "models_organizationalunit_organizationalunit_auditplans",
+      "models_organizationalunit_organizationalunit_casts",
+      "models_organizationalunit_organizationalunit_fraudalerts",
+      "models_organizationalunit_organizationalunit_lossevents",
+      "models_organizationalunit_organizationalunit_rcsacycles",
+      "models_organizationalunit_organizationalunit_riskregisters",
+      "models_organizationalunit_organizationalunit_users"
+    ],
+    "6": [
+      "app_http_controllers_ingestcontroller_php_request",
+      "app_http_controllers_policycontroller_php_request",
+      "controllers_ingestcontroller",
+      "controllers_ingestcontroller_ingestcontroller",
+      "controllers_ingestcontroller_ingestcontroller_approve",
+      "controllers_ingestcontroller_ingestcontroller_create",
+      "controllers_ingestcontroller_ingestcontroller_index",
+      "controllers_ingestcontroller_ingestcontroller_mockconfidence",
+      "controllers_ingestcontroller_ingestcontroller_mockextraction",
+      "controllers_ingestcontroller_ingestcontroller_reject",
+      "controllers_ingestcontroller_ingestcontroller_show",
+      "controllers_ingestcontroller_ingestcontroller_store",
+      "controllers_policycontroller",
+      "controllers_policycontroller_policycontroller",
+      "controllers_policycontroller_policycontroller_create",
+      "controllers_policycontroller_policycontroller_destroy",
+      "controllers_policycontroller_policycontroller_edit",
+      "controllers_policycontroller_policycontroller_forcedelete",
+      "controllers_policycontroller_policycontroller_index",
+      "controllers_policycontroller_policycontroller_restore",
+      "controllers_policycontroller_policycontroller_show",
+      "controllers_policycontroller_policycontroller_store",
+      "controllers_policycontroller_policycontroller_trash",
+      "controllers_policycontroller_policycontroller_update",
+      "ingestjob",
+      "policy"
+    ],
+    "7": [
+      "audit_index",
+      "audit_index_admintab",
+      "audit_index_anggaran_items",
+      "audit_index_auditindex",
+      "audit_index_btndanger",
+      "audit_index_btnprimary",
+      "audit_index_btnsecondary",
+      "audit_index_btnsmall",
+      "audit_index_cardbase",
+      "audit_index_filterselect",
+      "audit_index_followup_months",
+      "audit_index_followup_rows",
+      "audit_index_followupbarchart",
+      "audit_index_followuptab",
+      "audit_index_formatdatemono",
+      "audit_index_logistik_items",
+      "audit_index_performa_rows",
+      "audit_index_performatab",
+      "audit_index_risk_level_label",
+      "audit_index_status_options",
+      "audit_index_status_progress",
+      "audit_index_tabs",
+      "audit_index_temuan_rows",
+      "audit_index_temuantab"
+    ],
+    "8": [
+      "authenticatable",
+      "models_auditorperformance",
+      "models_auditorperformance_auditorperformance_casts",
+      "models_auditorperformance_auditorperformance_user",
+      "models_auditteammember",
+      "models_auditteammember_auditteammember_auditplan",
+      "models_auditteammember_auditteammember_casts",
+      "models_auditteammember_auditteammember_user",
+      "models_policyversion",
+      "models_policyversion_policyversion_author",
+      "models_policyversion_policyversion_casts",
+      "models_policyversion_policyversion_policy",
+      "models_user",
+      "models_user_user",
+      "models_user_user_actionplans",
+      "models_user_user_auditfindings",
+      "models_user_user_auditlogs",
+      "models_user_user_casts",
+      "models_user_user_fraudalerts",
+      "models_user_user_incidents",
+      "models_user_user_leadauditplans",
+      "models_user_user_notificationsetting",
+      "models_user_user_rcsacycles",
+      "models_user_user_unit"
+    ],
+    "9": [
+      "app_http_controllers_systemsettingcontroller_php_request",
+      "composer_autoload",
+      "composer_autoload_psr_4",
+      "composer_psr_4_app",
+      "composer_psr_4_database_factories",
+      "composer_psr_4_tests",
+      "controllers_systemsettingcontroller",
+      "controllers_systemsettingcontroller_systemsettingcontroller_index",
+      "controllers_systemsettingcontroller_systemsettingcontroller_update",
+      "models_systemsetting",
+      "models_systemsetting_systemsetting",
+      "models_systemsetting_systemsetting_casts",
+      "seeder",
+      "seeders_databaseseeder",
+      "seeders_databaseseeder_databaseseeder_run",
+      "seeders_organizationalunitseeder",
+      "seeders_organizationalunitseeder_organizationalunitseeder_run",
+      "seeders_systemsettingseeder",
+      "seeders_systemsettingseeder_systemsettingseeder_run",
+      "seeders_userseeder",
+      "seeders_userseeder_userseeder",
+      "seeders_userseeder_userseeder_run"
+    ],
+    "10": [
+      "package",
+      "package_dependencies",
+      "package_dependencies_inertiajs_react",
+      "package_dependencies_lucide_react",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_ziggy_js",
+      "package_devdependencies",
+      "package_devdependencies_axios",
+      "package_devdependencies_concurrently",
+      "package_devdependencies_laravel_vite_plugin",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_vite",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "package_private",
+      "package_schema",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_type"
+    ],
+    "11": [
+      "risk_index",
+      "risk_index_btndanger",
+      "risk_index_btnprimary",
+      "risk_index_btnsecondary",
+      "risk_index_btnsmall",
+      "risk_index_cardbase",
+      "risk_index_fraud_rows",
+      "risk_index_fraudtab",
+      "risk_index_kategori_color",
+      "risk_index_kategori_options",
+      "risk_index_kriplaceholdertab",
+      "risk_index_library_rows",
+      "risk_index_library_types",
+      "risk_index_librarytab",
+      "risk_index_rcsa_quarters",
+      "risk_index_rcsa_rows",
+      "risk_index_rcsaeffbadge",
+      "risk_index_rcsatab",
+      "risk_index_risikoindex",
+      "risk_index_riskscorechip",
+      "risk_index_status_options"
+    ],
+    "12": [
+      "risk_create",
+      "risk_create_btnprimary",
+      "risk_create_btnsecondary",
+      "risk_create_cardbase",
+      "risk_create_risikocreate",
+      "risk_edit",
+      "risk_edit_btnprimary",
+      "risk_edit_btnsecondary",
+      "risk_edit_cardbase",
+      "risk_edit_risikoedit",
+      "risk_risikoform",
+      "risk_risikoform_chipstyle",
+      "risk_risikoform_errorstyle",
+      "risk_risikoform_field",
+      "risk_risikoform_inputstyle",
+      "risk_risikoform_kategori_options",
+      "risk_risikoform_labelstyle",
+      "risk_risikoform_scale_options",
+      "risk_risikoform_scorechip",
+      "risk_risikoform_status_options"
+    ],
+    "13": [
+      "control_controlform",
+      "control_controlform_controlform",
+      "control_controlform_errorstyle",
+      "control_controlform_field",
+      "control_controlform_frequency_options",
+      "control_controlform_inputstyle",
+      "control_controlform_labelstyle",
+      "control_controlform_monoinputstyle",
+      "control_controlform_type_options",
+      "control_create",
+      "control_create_btnprimary",
+      "control_create_btnsecondary",
+      "control_create_cardbase",
+      "control_create_controlcreate",
+      "control_edit",
+      "control_edit_btnprimary",
+      "control_edit_btnsecondary",
+      "control_edit_cardbase",
+      "control_edit_controledit"
+    ],
+    "14": [
+      "app_http_controllers_regulationcontroller_php_request",
+      "app_http_middleware_handleinertiarequests_php_request",
+      "bootstrap_app",
+      "controllers_regulationcontroller",
+      "controllers_regulationcontroller_regulationcontroller_create",
+      "controllers_regulationcontroller_regulationcontroller_destroy",
+      "controllers_regulationcontroller_regulationcontroller_edit",
+      "controllers_regulationcontroller_regulationcontroller_index",
+      "controllers_regulationcontroller_regulationcontroller_show",
+      "controllers_regulationcontroller_regulationcontroller_store",
+      "controllers_regulationcontroller_regulationcontroller_update",
+      "middleware",
+      "middleware_handleinertiarequests",
+      "middleware_handleinertiarequests_handleinertiarequests_navcounts",
+      "middleware_handleinertiarequests_handleinertiarequests_share",
+      "middleware_handleinertiarequests_handleinertiarequests_version",
+      "regulation"
+    ],
+    "15": [
+      "kri_create",
+      "kri_create_btnprimary",
+      "kri_create_btnsecondary",
+      "kri_create_cardbase",
+      "kri_create_kricreate",
+      "kri_edit",
+      "kri_edit_btnprimary",
+      "kri_edit_btnsecondary",
+      "kri_edit_cardbase",
+      "kri_edit_kriedit",
+      "kri_kriform",
+      "kri_kriform_errorstyle",
+      "kri_kriform_field",
+      "kri_kriform_inputstyle",
+      "kri_kriform_kriform",
+      "kri_kriform_labelstyle",
+      "kri_kriform_periode_options"
+    ],
+    "16": [
+      "policy_index",
+      "policy_index_ai_chips",
+      "policy_index_btndanger",
+      "policy_index_btnprimary",
+      "policy_index_btnsecondary",
+      "policy_index_btnsmall",
+      "policy_index_cardstyle",
+      "policy_index_cert_history",
+      "policy_index_certs",
+      "policy_index_certtab",
+      "policy_index_kebijakanindex",
+      "policy_index_ministepper",
+      "policy_index_selectstyle",
+      "policy_index_status_options",
+      "policy_index_workflow_rows",
+      "policy_index_workflow_steps",
+      "policy_index_workflowtab"
+    ],
+    "17": [
+      "models_certification",
+      "models_certification_certification",
+      "models_certification_certification_casts",
+      "models_ingestjob",
+      "models_ingestjob_ingestjob",
+      "models_ingestjob_ingestjob_casts",
+      "models_ingestjob_ingestjob_user",
+      "models_lossrecovery",
+      "models_lossrecovery_lossrecovery_casts",
+      "models_lossrecovery_lossrecovery_lossevent",
+      "models_systemintegration",
+      "models_systemintegration_systemintegration_casts",
+      "models_usernotificationsetting",
+      "models_usernotificationsetting_usernotificationsetting_casts",
+      "models_usernotificationsetting_usernotificationsetting_user",
+      "softdeletes"
+    ],
+    "18": [
+      "policy_edit",
+      "policy_edit_ai_chips",
+      "policy_edit_btnprimary",
+      "policy_edit_btnsecondary",
+      "policy_edit_btnsmall",
+      "policy_edit_cardstyle",
+      "policy_edit_divisi_options",
+      "policy_edit_errorstyle",
+      "policy_edit_field",
+      "policy_edit_filedropzone",
+      "policy_edit_inputstyle",
+      "policy_edit_kategori_options",
+      "policy_edit_kebijakanedit",
+      "policy_edit_labelstyle",
+      "policy_edit_monoinputstyle",
+      "policy_edit_status_options"
+    ],
+    "19": [
+      "hasfactory",
+      "models_auditlog",
+      "models_auditlog_auditlog_actor",
+      "models_auditlog_auditlog_casts",
+      "models_control",
+      "models_control_control",
+      "models_control_control_casts",
+      "models_control_control_risk",
+      "models_regulation",
+      "models_regulation_regulation",
+      "models_regulation_regulation_casts",
+      "models_regulation_regulation_obligations",
+      "models_spibudget",
+      "models_spibudget_spibudget",
+      "models_spibudget_spibudget_casts"
+    ],
+    "20": [
+      "incident_show",
+      "incident_show_btnprimary",
+      "incident_show_btnsecondary",
+      "incident_show_cardheader",
+      "incident_show_cardpadless",
+      "incident_show_cardstyle",
+      "incident_show_formatdate",
+      "incident_show_formatdatemono",
+      "incident_show_formatidr",
+      "incident_show_incident_steps",
+      "incident_show_insidenshow",
+      "incident_show_severity_label",
+      "incident_show_status_to_step",
+      "incident_show_status_transitions",
+      "incident_show_timeline_icon"
+    ],
+    "21": [
+      "policy_create",
+      "policy_create_ai_chips",
+      "policy_create_btnprimary",
+      "policy_create_btnsecondary",
+      "policy_create_cardstyle",
+      "policy_create_divisi_options",
+      "policy_create_errorstyle",
+      "policy_create_field",
+      "policy_create_filedropzone",
+      "policy_create_inputstyle",
+      "policy_create_kategori_options",
+      "policy_create_kebijakancreate",
+      "policy_create_labelstyle",
+      "policy_create_monoinputstyle",
+      "policy_create_status_options"
+    ],
+    "22": [
+      "lossevent_create",
+      "lossevent_create_ai_chips",
+      "lossevent_create_btnprimary",
+      "lossevent_create_btnsecondary",
+      "lossevent_create_cardstyle",
+      "lossevent_create_currency_options",
+      "lossevent_create_errorstyle",
+      "lossevent_create_field",
+      "lossevent_create_inputmonostyle",
+      "lossevent_create_inputstyle",
+      "lossevent_create_kategori_options",
+      "lossevent_create_labelstyle",
+      "lossevent_create_losscreate",
+      "lossevent_create_status_options"
+    ],
+    "23": [
+      "lossevent_edit",
+      "lossevent_edit_ai_chips",
+      "lossevent_edit_btnprimary",
+      "lossevent_edit_btnsecondary",
+      "lossevent_edit_cardstyle",
+      "lossevent_edit_currency_options",
+      "lossevent_edit_errorstyle",
+      "lossevent_edit_field",
+      "lossevent_edit_inputmonostyle",
+      "lossevent_edit_inputstyle",
+      "lossevent_edit_kategori_options",
+      "lossevent_edit_labelstyle",
+      "lossevent_edit_lossedit",
+      "lossevent_edit_status_options"
+    ],
+    "24": [
+      "lossevent_index",
+      "lossevent_index_basel_kategori_label",
+      "lossevent_index_btndanger",
+      "lossevent_index_btnprimary",
+      "lossevent_index_btnsecondary",
+      "lossevent_index_btnsmall",
+      "lossevent_index_cardstyle",
+      "lossevent_index_filterselect",
+      "lossevent_index_formatdatemono",
+      "lossevent_index_formatidr",
+      "lossevent_index_formatidrshort",
+      "lossevent_index_kategori_options",
+      "lossevent_index_lossindex",
+      "lossevent_index_status_options"
+    ],
+    "25": [
+      "model",
+      "models_actionplan",
+      "models_actionplan_actionplan",
+      "models_actionplan_actionplan_actionable",
+      "models_actionplan_actionplan_casts",
+      "models_actionplan_actionplan_owner",
+      "models_kri",
+      "models_kri_kri",
+      "models_kri_kri_casts",
+      "models_rcsacycle",
+      "models_rcsacycle_rcsacycle",
+      "models_rcsacycle_rcsacycle_assessor",
+      "models_rcsacycle_rcsacycle_casts",
+      "models_rcsacycle_rcsacycle_unit"
+    ],
+    "26": [
+      "aiassistant_index",
+      "aiassistant_index_aiassistantindex",
+      "aiassistant_index_chatpanel",
+      "aiassistant_index_contextrail",
+      "aiassistant_index_data_sources",
+      "aiassistant_index_messagebubble",
+      "aiassistant_index_minibtn",
+      "aiassistant_index_model_options",
+      "aiassistant_index_reltime",
+      "aiassistant_index_renderrichtext",
+      "aiassistant_index_row",
+      "aiassistant_index_suggestions",
+      "aiassistant_index_threadlist"
+    ],
+    "27": [
+      "app_http_controllers_auditfindingcontroller_php_request",
+      "auditfinding",
+      "controllers_auditfindingcontroller",
+      "controllers_auditfindingcontroller_auditfindingcontroller_close",
+      "controllers_auditfindingcontroller_auditfindingcontroller_index",
+      "controllers_auditfindingcontroller_auditfindingcontroller_show",
+      "controllers_auditfindingcontroller_auditfindingcontroller_update",
+      "models_auditfinding_auditfinding",
+      "models_auditfinding_auditfinding_actionplans",
+      "models_auditfinding_auditfinding_auditplan",
+      "models_auditfinding_auditfinding_casts",
+      "models_auditfinding_auditfinding_owner",
+      "models_auditfinding_auditfinding_unit"
+    ],
+    "28": [
+      "audit_show",
+      "audit_show_audit_steps",
+      "audit_show_auditshow",
+      "audit_show_btnprimary",
+      "audit_show_btnsecondary",
+      "audit_show_btnsmall",
+      "audit_show_cardheader",
+      "audit_show_cardpadless",
+      "audit_show_cardstyle",
+      "audit_show_formatdate",
+      "audit_show_formatdatemono",
+      "audit_show_risk_level_label",
+      "audit_show_status_to_step"
+    ],
+    "29": [
+      "layouts_applayout",
+      "layouts_applayout_avatar",
+      "layouts_applayout_brandmark",
+      "layouts_applayout_commandpalette",
+      "layouts_applayout_crumbs",
+      "layouts_applayout_isrouteactive",
+      "layouts_applayout_notifpanel",
+      "layouts_applayout_primary_nav",
+      "layouts_applayout_sidebar",
+      "layouts_applayout_sidebarlink",
+      "layouts_applayout_toast",
+      "layouts_applayout_tools_nav",
+      "layouts_applayout_topbar"
+    ],
+    "30": [
+      "regulation_index",
+      "regulation_index_btndanger",
+      "regulation_index_btnprimary",
+      "regulation_index_btnsecondary",
+      "regulation_index_btnsmall",
+      "regulation_index_cardstyle",
+      "regulation_index_gapchip",
+      "regulation_index_jenis_label",
+      "regulation_index_jenis_options",
+      "regulation_index_jenis_tone",
+      "regulation_index_regulasiindex",
+      "regulation_index_selectstyle",
+      "regulation_index_status_options"
+    ],
+    "31": [
+      "kri_index",
+      "kri_index_btndanger",
+      "kri_index_btnprimary",
+      "kri_index_btnsecondary",
+      "kri_index_btnsmall",
+      "kri_index_cardbase",
+      "kri_index_kriindex",
+      "kri_index_periode_options",
+      "kri_index_status_badge_label",
+      "kri_index_status_breach_color",
+      "kri_index_status_options",
+      "kri_index_thresholdinline"
+    ],
+    "32": [
+      "models_auditplan",
+      "models_auditplan_auditplan",
+      "models_auditplan_auditplan_casts",
+      "models_auditplan_auditplan_findings",
+      "models_auditplan_auditplan_leadauditor",
+      "models_auditplan_auditplan_teammembers",
+      "models_auditplan_auditplan_unit",
+      "models_user_user_workingpapers",
+      "models_workingpaper",
+      "models_workingpaper_workingpaper_auditplan",
+      "models_workingpaper_workingpaper_casts",
+      "models_workingpaper_workingpaper_reviewer"
+    ],
+    "33": [
+      "regulation_create",
+      "regulation_create_btnprimary",
+      "regulation_create_btnsecondary",
+      "regulation_create_cardstyle",
+      "regulation_create_errorstyle",
+      "regulation_create_field",
+      "regulation_create_inputstyle",
+      "regulation_create_jenis_options",
+      "regulation_create_labelstyle",
+      "regulation_create_monoinputstyle",
+      "regulation_create_regulasicreate",
+      "regulation_create_status_options"
+    ],
+    "34": [
+      "regulation_edit",
+      "regulation_edit_btnprimary",
+      "regulation_edit_btnsecondary",
+      "regulation_edit_cardstyle",
+      "regulation_edit_errorstyle",
+      "regulation_edit_field",
+      "regulation_edit_inputstyle",
+      "regulation_edit_jenis_options",
+      "regulation_edit_labelstyle",
+      "regulation_edit_monoinputstyle",
+      "regulation_edit_regulasiedit",
+      "regulation_edit_status_options"
+    ],
+    "35": [
+      "aichatthread",
+      "app_http_controllers_aiassistantcontroller_php_request",
+      "controllers_aiassistantcontroller",
+      "controllers_aiassistantcontroller_aiassistantcontroller_destroy",
+      "controllers_aiassistantcontroller_aiassistantcontroller_index",
+      "controllers_aiassistantcontroller_aiassistantcontroller_mockassistantreply",
+      "controllers_aiassistantcontroller_aiassistantcontroller_sendmessage",
+      "controllers_aiassistantcontroller_aiassistantcontroller_store",
+      "models_aichatmessage",
+      "models_aichatmessage_aichatmessage_casts",
+      "models_aichatmessage_aichatmessage_thread"
+    ],
+    "36": [
+      "control_index",
+      "control_index_btndanger",
+      "control_index_btnprimary",
+      "control_index_btnsecondary",
+      "control_index_btnsmall",
+      "control_index_cardbase",
+      "control_index_controlindex",
+      "control_index_effectivenesstone",
+      "control_index_sample_rows",
+      "control_index_type_options",
+      "control_index_typetone"
+    ],
+    "37": [
+      "ingest_show",
+      "ingest_show_btndanger",
+      "ingest_show_btnprimary",
+      "ingest_show_btnsecondary",
+      "ingest_show_confcolor",
+      "ingest_show_field",
+      "ingest_show_formatbytes",
+      "ingest_show_ingestshow",
+      "ingest_show_inputbase",
+      "ingest_show_status_tone",
+      "ingest_show_type_label"
+    ],
+    "38": [
+      "lossevent_show",
+      "lossevent_show_basel_kategori_label",
+      "lossevent_show_btnprimary",
+      "lossevent_show_btnsecondary",
+      "lossevent_show_cardheader",
+      "lossevent_show_cardpadless",
+      "lossevent_show_cardstyle",
+      "lossevent_show_formatdate",
+      "lossevent_show_formatdatemono",
+      "lossevent_show_formatidr",
+      "lossevent_show_lossshow"
+    ],
+    "39": [
+      "settings_index",
+      "settings_index_asboolean",
+      "settings_index_btnprimary",
+      "settings_index_cardstyle",
+      "settings_index_hintstyle",
+      "settings_index_inputstyle",
+      "settings_index_labelstyle",
+      "settings_index_monoinputstyle",
+      "settings_index_pengaturanindex",
+      "settings_index_settingfield",
+      "settings_index_settingsection"
+    ],
+    "40": [
+      "app_http_controllers_controlcontroller_php_request",
+      "control",
+      "controllers_controlcontroller",
+      "controllers_controlcontroller_controlcontroller",
+      "controllers_controlcontroller_controlcontroller_create",
+      "controllers_controlcontroller_controlcontroller_destroy",
+      "controllers_controlcontroller_controlcontroller_edit",
+      "controllers_controlcontroller_controlcontroller_index",
+      "controllers_controlcontroller_controlcontroller_store",
+      "controllers_controlcontroller_controlcontroller_update"
+    ],
+    "41": [
+      "kri_show",
+      "kri_show_btnprimary",
+      "kri_show_btnsecondary",
+      "kri_show_cardbase",
+      "kri_show_formatdate",
+      "kri_show_formatperiodcell",
+      "kri_show_krishow",
+      "kri_show_status_color",
+      "kri_show_status_label",
+      "kri_show_status_tone"
+    ],
+    "42": [
+      "regulation_show",
+      "regulation_show_btnprimary",
+      "regulation_show_btnsecondary",
+      "regulation_show_cardstyle",
+      "regulation_show_cardstylenopad",
+      "regulation_show_formatdate",
+      "regulation_show_formatdatemono",
+      "regulation_show_jenis_label",
+      "regulation_show_jenis_tone",
+      "regulation_show_regulasishow"
+    ],
+    "43": [
+      "actionplan_index",
+      "actionplan_index_btnprimary",
+      "actionplan_index_btnsmall",
+      "actionplan_index_cardbase",
+      "actionplan_index_deadlinecell",
+      "actionplan_index_rencanaaksiindex",
+      "actionplan_index_status_options",
+      "actionplan_index_sumber_options",
+      "actionplan_index_sumbertag"
+    ],
+    "44": [
+      "basetestcase",
+      "feature_exampletest",
+      "feature_exampletest_exampletest",
+      "feature_exampletest_exampletest_test_the_application_returns_a_successful_response",
+      "tests_testcase",
+      "tests_testcase_testcase",
+      "unit_exampletest",
+      "unit_exampletest_exampletest",
+      "unit_exampletest_exampletest_test_that_true_is_true"
+    ],
+    "45": [
+      "models_incident",
+      "models_incident_incident",
+      "models_incident_incident_actionplans",
+      "models_incident_incident_attachments",
+      "models_incident_incident_casts",
+      "models_incident_incident_investigator",
+      "models_incident_incident_recommendations",
+      "models_incident_incident_timelines",
+      "models_incident_incident_unit"
+    ],
+    "46": [
+      "policy_show",
+      "policy_show_btnprimary",
+      "policy_show_btnsecondary",
+      "policy_show_btnsmall",
+      "policy_show_cardstyle",
+      "policy_show_cardstylenopad",
+      "policy_show_formatdate",
+      "policy_show_formatdatemono",
+      "policy_show_kebijakanshow"
+    ],
+    "47": [
+      "actionplan_show",
+      "actionplan_show_btnprimary",
+      "actionplan_show_btnsecondary",
+      "actionplan_show_cardbase",
+      "actionplan_show_formatdate",
+      "actionplan_show_formatdatetime",
+      "actionplan_show_progresscolor",
+      "actionplan_show_rencanaaksishow"
+    ],
+    "48": [
+      "ingest_index",
+      "ingest_index_btnprimary",
+      "ingest_index_btnsmall",
+      "ingest_index_fmtdate",
+      "ingest_index_formatbytes",
+      "ingest_index_ingestindex",
+      "ingest_index_status_tone",
+      "ingest_index_type_label"
+    ],
+    "49": [
+      "models_approvalworkflow",
+      "models_approvalworkflow_approvalworkflow_casts",
+      "models_approvalworkflow_approvalworkflow_policy",
+      "models_policy",
+      "models_policy_policy",
+      "models_policy_policy_actionplans",
+      "models_policy_policy_casts",
+      "models_policy_policy_versions"
+    ],
+    "50": [
+      "models_riskregister",
+      "models_riskregister_riskregister",
+      "models_riskregister_riskregister_actionplans",
+      "models_riskregister_riskregister_casts",
+      "models_riskregister_riskregister_controls",
+      "models_riskregister_riskregister_kri",
+      "models_riskregister_riskregister_lossevents",
+      "models_riskregister_riskregister_unit"
+    ],
+    "51": [
+      "risk_show",
+      "risk_show_btnprimary",
+      "risk_show_btnsecondary",
+      "risk_show_cardbase",
+      "risk_show_formatdate",
+      "risk_show_risikoshow",
+      "risk_show_scoretile"
+    ],
+    "52": [
+      "compliance_aml",
+      "compliance_aml_btnsmall",
+      "compliance_aml_cardstyle",
+      "compliance_aml_complianceaml",
+      "compliance_aml_tabs",
+      "compliance_aml_trendchart"
+    ],
+    "53": [
+      "compliance_index",
+      "compliance_index_btnprimary",
+      "compliance_index_btnsecondary",
+      "compliance_index_cardstyle",
+      "compliance_index_complianceindex",
+      "compliance_index_tabs"
+    ],
+    "54": [
+      "components_avatar",
+      "components_avatar_avatar",
+      "components_avatar_hashcolor",
+      "components_avatar_palette",
+      "components_avatarstack",
+      "components_avatarstack_avatarstack"
+    ],
+    "55": [
+      "components_heatmap",
+      "components_heatmap_colorat",
+      "components_heatmap_heatmap",
+      "components_heatmap_impact_labels",
+      "components_heatmap_likelihood_labels",
+      "components_heatmap_readcount"
+    ],
+    "56": [
+      "components_tag",
+      "components_tag_sizes",
+      "components_tag_tag",
+      "components_tag_tones",
+      "components_toolbar",
+      "components_toolbar_toolbar"
+    ],
+    "57": [
+      "dashboard_index",
+      "dashboard_index_card",
+      "dashboard_index_dashboardindex",
+      "dashboard_index_hbar",
+      "dashboard_index_heatmap",
+      "dashboard_index_sectiontitle"
+    ],
+    "58": [
+      "factories_userfactory",
+      "factories_userfactory_userfactory",
+      "factories_userfactory_userfactory_definition",
+      "factories_userfactory_userfactory_unverified",
+      "factory",
+      "static"
+    ],
+    "59": [
+      "models_lossevent_lossevent",
+      "models_lossevent_lossevent_actionplans",
+      "models_lossevent_lossevent_casts",
+      "models_lossevent_lossevent_recoveries",
+      "models_lossevent_lossevent_risk",
+      "models_lossevent_lossevent_unit"
+    ],
+    "60": [
+      "backend_plan_ai_ingest_workflow",
+      "models_aiingestionsession",
+      "models_aiingestionsession_aiingestionsession_actor",
+      "models_aiingestionsession_aiingestionsession_casts",
+      "models_user_user_aiingestionsessions"
+    ],
+    "61": [
+      "components_badge",
+      "components_badge_badge",
+      "components_badge_status_tone",
+      "components_badge_tag",
+      "components_badge_tones"
+    ],
+    "62": [
+      "hasuuids",
+      "models_notification",
+      "models_notification_notification_casts",
+      "models_notification_notification_user",
+      "models_user_user_notifications"
+    ],
+    "63": [
+      "ingest_create",
+      "ingest_create_btnprimary",
+      "ingest_create_btnsecondary",
+      "ingest_create_ingestcreate",
+      "ingest_create_types"
+    ],
+    "64": [
+      "migrations_2026_01_01_000007_create_audit_plans_table",
+      "migrations_2026_01_01_000007_create_audit_plans_table_down",
+      "migrations_2026_01_01_000007_create_audit_plans_table_up",
+      "migrations_2026_01_01_000011_create_auditor_performances_table_down",
+      "migrations_2026_01_01_000011_create_auditor_performances_table_up"
+    ],
+    "65": [
+      "migrations_2026_01_01_000013_create_regulations_table",
+      "migrations_2026_01_01_000013_create_regulations_table_down",
+      "migrations_2026_01_01_000013_create_regulations_table_up",
+      "migrations_2026_01_01_000014_create_regulation_obligations_table_down",
+      "migrations_2026_01_01_000014_create_regulation_obligations_table_up"
+    ],
+    "66": [
+      "models_fraudalert",
+      "models_fraudalert_fraudalert",
+      "models_fraudalert_fraudalert_casts",
+      "models_fraudalert_fraudalert_investigator",
+      "models_fraudalert_fraudalert_unit"
+    ],
+    "67": [
+      "app_http_middleware_portaltokenauth_php_request",
+      "closure",
+      "middleware_portaltokenauth",
+      "middleware_portaltokenauth_portaltokenauth_handle"
+    ],
+    "68": [
+      "compliance_culture",
+      "compliance_culture_cardstyle",
+      "compliance_culture_complianceculture",
+      "compliance_culture_tabs"
+    ],
+    "69": [
+      "compliance_qa",
+      "compliance_qa_cardstyle",
+      "compliance_qa_complianceqa",
+      "compliance_qa_tabs"
+    ],
+    "70": [
+      "js_app_setup",
+      "js_bootstrap",
+      "resources_js_app_js_js_app",
+      "resources_js_app_jsx_js_app"
+    ],
+    "71": [
+      "models_aichatthread_aichatthread",
+      "models_aichatthread_aichatthread_latestmessage",
+      "models_aichatthread_aichatthread_messages",
+      "models_aichatthread_aichatthread_user"
+    ],
+    "72": [
+      "models_incidentattachment",
+      "models_incidentattachment_incidentattachment_casts",
+      "models_incidentattachment_incidentattachment_incident",
+      "models_incidentattachment_incidentattachment_uploader"
+    ],
+    "73": [
+      "models_regulationobligation",
+      "models_regulationobligation_regulationobligation_casts",
+      "models_regulationobligation_regulationobligation_pic",
+      "models_regulationobligation_regulationobligation_regulation"
+    ],
+    "74": [
+      "providers_appserviceprovider",
+      "providers_appserviceprovider_appserviceprovider_boot",
+      "providers_appserviceprovider_appserviceprovider_register",
+      "serviceprovider"
+    ],
+    "75": [
+      "auth_login",
+      "auth_login_brandmark",
+      "auth_login_login"
+    ],
+    "76": [
+      "components_aicard",
+      "components_aicard_aicard",
+      "components_aicard_sev_tone"
+    ],
+    "77": [
+      "components_toggle",
+      "components_toggle_sizes",
+      "components_toggle_toggle"
+    ],
+    "78": [
+      "migrations_0001_01_01_000000_create_users_table",
+      "migrations_0001_01_01_000000_create_users_table_down",
+      "migrations_0001_01_01_000000_create_users_table_up"
+    ],
+    "79": [
+      "migrations_0001_01_01_000001_create_cache_table",
+      "migrations_0001_01_01_000001_create_cache_table_down",
+      "migrations_0001_01_01_000001_create_cache_table_up"
+    ],
+    "80": [
+      "migrations_0001_01_01_000002_create_jobs_table",
+      "migrations_0001_01_01_000002_create_jobs_table_down",
+      "migrations_0001_01_01_000002_create_jobs_table_up"
+    ],
+    "81": [
+      "migrations_2026_01_01_000001_create_kris_table",
+      "migrations_2026_01_01_000001_create_kris_table_down",
+      "migrations_2026_01_01_000001_create_kris_table_up"
+    ],
+    "82": [
+      "migrations_2026_01_01_000002_create_risk_register_table",
+      "migrations_2026_01_01_000002_create_risk_register_table_down",
+      "migrations_2026_01_01_000002_create_risk_register_table_up"
+    ],
+    "83": [
+      "migrations_2026_01_01_000003_create_controls_table",
+      "migrations_2026_01_01_000003_create_controls_table_down",
+      "migrations_2026_01_01_000003_create_controls_table_up"
+    ],
+    "84": [
+      "migrations_2026_01_01_000004_create_action_plans_table",
+      "migrations_2026_01_01_000004_create_action_plans_table_down",
+      "migrations_2026_01_01_000004_create_action_plans_table_up"
+    ],
+    "85": [
+      "migrations_2026_01_01_000005_create_rcsa_cycles_table",
+      "migrations_2026_01_01_000005_create_rcsa_cycles_table_down",
+      "migrations_2026_01_01_000005_create_rcsa_cycles_table_up"
+    ],
+    "86": [
+      "migrations_2026_01_01_000006_create_fraud_alerts_table",
+      "migrations_2026_01_01_000006_create_fraud_alerts_table_down",
+      "migrations_2026_01_01_000006_create_fraud_alerts_table_up"
+    ],
+    "87": [
+      "migrations_2026_01_01_000008_create_audit_team_members_table",
+      "migrations_2026_01_01_000008_create_audit_team_members_table_down",
+      "migrations_2026_01_01_000008_create_audit_team_members_table_up"
+    ],
+    "88": [
+      "migrations_2026_01_01_000009_create_audit_findings_table",
+      "migrations_2026_01_01_000009_create_audit_findings_table_down",
+      "migrations_2026_01_01_000009_create_audit_findings_table_up"
+    ],
+    "89": [
+      "migrations_2026_01_01_000010_create_working_papers_table",
+      "migrations_2026_01_01_000010_create_working_papers_table_down",
+      "migrations_2026_01_01_000010_create_working_papers_table_up"
+    ],
+    "90": [
+      "migrations_2026_01_01_000012_create_spi_budgets_table",
+      "migrations_2026_01_01_000012_create_spi_budgets_table_down",
+      "migrations_2026_01_01_000012_create_spi_budgets_table_up"
+    ],
+    "91": [
+      "migrations_2026_01_01_000015_create_policies_table",
+      "migrations_2026_01_01_000015_create_policies_table_down",
+      "migrations_2026_01_01_000015_create_policies_table_up"
+    ],
+    "92": [
+      "migrations_2026_01_01_000016_create_policy_versions_table",
+      "migrations_2026_01_01_000016_create_policy_versions_table_down",
+      "migrations_2026_01_01_000016_create_policy_versions_table_up"
+    ],
+    "93": [
+      "migrations_2026_01_01_000017_create_approval_workflows_table",
+      "migrations_2026_01_01_000017_create_approval_workflows_table_down",
+      "migrations_2026_01_01_000017_create_approval_workflows_table_up"
+    ],
+    "94": [
+      "migrations_2026_01_01_000018_create_certifications_table",
+      "migrations_2026_01_01_000018_create_certifications_table_down",
+      "migrations_2026_01_01_000018_create_certifications_table_up"
+    ],
+    "95": [
+      "migrations_2026_01_01_000019_create_incidents_table",
+      "migrations_2026_01_01_000019_create_incidents_table_down",
+      "migrations_2026_01_01_000019_create_incidents_table_up"
+    ],
+    "96": [
+      "migrations_2026_01_01_000020_create_incident_timelines_table",
+      "migrations_2026_01_01_000020_create_incident_timelines_table_down",
+      "migrations_2026_01_01_000020_create_incident_timelines_table_up"
+    ],
+    "97": [
+      "migrations_2026_01_01_000021_create_incident_recommendations_table",
+      "migrations_2026_01_01_000021_create_incident_recommendations_table_down",
+      "migrations_2026_01_01_000021_create_incident_recommendations_table_up"
+    ],
+    "98": [
+      "migrations_2026_01_01_000022_create_incident_attachments_table",
+      "migrations_2026_01_01_000022_create_incident_attachments_table_down",
+      "migrations_2026_01_01_000022_create_incident_attachments_table_up"
+    ],
+    "99": [
+      "migrations_2026_01_01_000023_create_loss_events_table",
+      "migrations_2026_01_01_000023_create_loss_events_table_down",
+      "migrations_2026_01_01_000023_create_loss_events_table_up"
+    ],
+    "100": [
+      "migrations_2026_01_01_000024_create_loss_recoveries_table",
+      "migrations_2026_01_01_000024_create_loss_recoveries_table_down",
+      "migrations_2026_01_01_000024_create_loss_recoveries_table_up"
+    ],
+    "101": [
+      "migrations_2026_01_01_000025_create_ai_ingestion_sessions_table",
+      "migrations_2026_01_01_000025_create_ai_ingestion_sessions_table_down",
+      "migrations_2026_01_01_000025_create_ai_ingestion_sessions_table_up"
+    ],
+    "102": [
+      "migrations_2026_01_01_000026_create_notifications_table",
+      "migrations_2026_01_01_000026_create_notifications_table_down",
+      "migrations_2026_01_01_000026_create_notifications_table_up"
+    ],
+    "103": [
+      "migrations_2026_01_01_000027_create_user_notification_settings_table",
+      "migrations_2026_01_01_000027_create_user_notification_settings_table_down",
+      "migrations_2026_01_01_000027_create_user_notification_settings_table_up"
+    ],
+    "104": [
+      "migrations_2026_01_01_000028_create_system_integrations_table",
+      "migrations_2026_01_01_000028_create_system_integrations_table_down",
+      "migrations_2026_01_01_000028_create_system_integrations_table_up"
+    ],
+    "105": [
+      "migrations_2026_01_01_000029_create_audit_logs_table",
+      "migrations_2026_01_01_000029_create_audit_logs_table_down",
+      "migrations_2026_01_01_000029_create_audit_logs_table_up"
+    ],
+    "106": [
+      "migrations_2026_01_01_000030_create_system_settings_table",
+      "migrations_2026_01_01_000030_create_system_settings_table_down",
+      "migrations_2026_01_01_000030_create_system_settings_table_up"
+    ],
+    "107": [
+      "migrations_2026_05_08_000001_add_auth_columns_to_users_table",
+      "migrations_2026_05_08_000001_add_auth_columns_to_users_table_down",
+      "migrations_2026_05_08_000001_add_auth_columns_to_users_table_up"
+    ],
+    "108": [
+      "migrations_2026_05_08_000002_create_ai_chat_threads_table",
+      "migrations_2026_05_08_000002_create_ai_chat_threads_table_down",
+      "migrations_2026_05_08_000002_create_ai_chat_threads_table_up"
+    ],
+    "109": [
+      "migrations_2026_05_08_000003_create_ai_chat_messages_table",
+      "migrations_2026_05_08_000003_create_ai_chat_messages_table_down",
+      "migrations_2026_05_08_000003_create_ai_chat_messages_table_up"
+    ],
+    "110": [
+      "migrations_2026_05_08_000004_create_ingest_jobs_table",
+      "migrations_2026_05_08_000004_create_ingest_jobs_table_down",
+      "migrations_2026_05_08_000004_create_ingest_jobs_table_up"
+    ],
+    "111": [
+      "models_incidentrecommendation",
+      "models_incidentrecommendation_incidentrecommendation_casts",
+      "models_incidentrecommendation_incidentrecommendation_incident"
+    ],
+    "112": [
+      "models_incidenttimeline",
+      "models_incidenttimeline_incidenttimeline_casts",
+      "models_incidenttimeline_incidenttimeline_incident"
+    ],
+    "113": [
+      "components_datatable",
+      "components_datatable_datatable"
+    ],
+    "114": [
+      "components_donut",
+      "components_donut_donut"
+    ],
+    "115": [
+      "components_hbar",
+      "components_hbar_hbar"
+    ],
+    "116": [
+      "components_pageheader",
+      "components_pageheader_pageheader"
+    ],
+    "117": [
+      "components_sparkline",
+      "components_sparkline_sparkline"
+    ],
+    "118": [
+      "components_statcard",
+      "components_statcard_statcard"
+    ],
+    "119": [
+      "components_stepper",
+      "components_stepper_stepper"
+    ],
+    "120": [
+      "bootstrap_providers"
+    ],
+    "121": [
+      "cache_packages"
+    ],
+    "122": [
+      "cache_services"
+    ],
+    "123": [
+      "components_detailrow"
+    ],
+    "124": [
+      "components_masterdetail"
+    ],
+    "125": [
+      "components_rightrail"
+    ],
+    "126": [
+      "components_sectiontitle"
+    ],
+    "127": [
+      "config_app"
+    ],
+    "128": [
+      "config_auth"
+    ],
+    "129": [
+      "config_cache"
+    ],
+    "130": [
+      "config_database"
+    ],
+    "131": [
+      "config_filesystems"
+    ],
+    "132": [
+      "config_logging"
+    ],
+    "133": [
+      "config_mail"
+    ],
+    "134": [
+      "config_queue"
+    ],
+    "135": [
+      "config_services"
+    ],
+    "136": [
+      "config_session"
+    ],
+    "137": [
+      "postcss_config"
+    ],
+    "138": [
+      "public_index"
+    ],
+    "139": [
+      "robots_policy"
+    ],
+    "140": [
+      "routes_console"
+    ],
+    "141": [
+      "routes_web"
+    ],
+    "142": [
+      "views_app_blade"
+    ],
+    "143": [
+      "views_welcome_blade"
+    ],
+    "144": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.0549645390070922,
+    "1": 0.047619047619047616,
+    "2": 0.09041835357624832,
+    "3": 0.06006006006006006,
+    "4": 0.09915966386554621,
+    "5": 0.09915966386554621,
+    "6": 0.14461538461538462,
+    "7": 0.08333333333333333,
+    "8": 0.08333333333333333,
+    "9": 0.10822510822510822,
+    "10": 0.09523809523809523,
+    "11": 0.09523809523809523,
+    "12": 0.10526315789473684,
+    "13": 0.10526315789473684,
+    "14": 0.20588235294117646,
+    "15": 0.11764705882352941,
+    "16": 0.11764705882352941,
+    "17": 0.14166666666666666,
+    "18": 0.125,
+    "19": 0.1619047619047619,
+    "20": 0.1523809523809524,
+    "21": 0.13333333333333333,
+    "22": 0.14285714285714285,
+    "23": 0.14285714285714285,
+    "24": 0.15384615384615385,
+    "25": 0.17582417582417584,
+    "26": 0.16666666666666666,
+    "27": 0.24358974358974358,
+    "28": 0.16666666666666666,
+    "29": 0.16666666666666666,
+    "30": 0.15384615384615385,
+    "31": 0.16666666666666666,
+    "32": 0.16666666666666666,
+    "33": 0.16666666666666666,
+    "34": 0.16666666666666666,
+    "35": 0.4,
+    "36": 0.18181818181818182,
+    "37": 0.21818181818181817,
+    "38": 0.21818181818181817,
+    "39": 0.2,
+    "40": 0.35555555555555557,
+    "41": 0.2222222222222222,
+    "42": 0.2222222222222222,
+    "43": 0.2222222222222222,
+    "44": 0.2777777777777778,
+    "45": 0.2222222222222222,
+    "46": 0.25,
+    "47": 0.35714285714285715,
+    "48": 0.25,
+    "49": 0.25,
+    "50": 0.25,
+    "51": 0.3333333333333333,
+    "52": 0.3333333333333333,
+    "53": 0.3333333333333333,
+    "54": 0.4,
+    "55": 0.3333333333333333,
+    "56": 0.3333333333333333,
+    "57": 0.3333333333333333,
+    "58": 0.4666666666666667,
+    "59": 0.3333333333333333,
+    "60": 0.4,
+    "61": 0.4,
+    "62": 0.5,
+    "63": 0.4,
+    "64": 0.4,
+    "65": 0.4,
+    "66": 0.4,
+    "67": 0.8333333333333334,
+    "68": 0.5,
+    "69": 0.5,
+    "70": 0.5,
+    "71": 0.5,
+    "72": 0.5,
+    "73": 0.5,
+    "74": 0.5,
+    "75": 0.6666666666666666,
+    "76": 0.6666666666666666,
+    "77": 0.6666666666666666,
+    "78": 0.6666666666666666,
+    "79": 0.6666666666666666,
+    "80": 0.6666666666666666,
+    "81": 0.6666666666666666,
+    "82": 0.6666666666666666,
+    "83": 0.6666666666666666,
+    "84": 0.6666666666666666,
+    "85": 0.6666666666666666,
+    "86": 0.6666666666666666,
+    "87": 0.6666666666666666,
+    "88": 0.6666666666666666,
+    "89": 0.6666666666666666,
+    "90": 0.6666666666666666,
+    "91": 0.6666666666666666,
+    "92": 0.6666666666666666,
+    "93": 0.6666666666666666,
+    "94": 0.6666666666666666,
+    "95": 0.6666666666666666,
+    "96": 0.6666666666666666,
+    "97": 0.6666666666666666,
+    "98": 0.6666666666666666,
+    "99": 0.6666666666666666,
+    "100": 0.6666666666666666,
+    "101": 0.6666666666666666,
+    "102": 0.6666666666666666,
+    "103": 0.6666666666666666,
+    "104": 0.6666666666666666,
+    "105": 0.6666666666666666,
+    "106": 0.6666666666666666,
+    "107": 0.6666666666666666,
+    "108": 0.6666666666666666,
+    "109": 0.6666666666666666,
+    "110": 0.6666666666666666,
+    "111": 0.6666666666666666,
+    "112": 0.6666666666666666,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0
+  },
+  "gods": [
+    {
+      "id": "models_user_user",
+      "label": "User",
+      "degree": 22
+    },
+    {
+      "id": "riskregister",
+      "label": "RiskRegister",
+      "degree": 21
+    },
+    {
+      "id": "controllers_controller_controller",
+      "label": "Controller",
+      "degree": 18
+    },
+    {
+      "id": "readme_igracias",
+      "label": "iGRaCias Platform",
+      "degree": 15
+    },
+    {
+      "id": "auditplan",
+      "label": "AuditPlan",
+      "degree": 12
+    },
+    {
+      "id": "incident",
+      "label": "Incident",
+      "degree": 12
+    },
+    {
+      "id": "controllers_policycontroller_policycontroller",
+      "label": "PolicyController",
+      "degree": 12
+    },
+    {
+      "id": "policy",
+      "label": "Policy",
+      "degree": 12
+    },
+    {
+      "id": "auditfinding",
+      "label": "AuditFinding",
+      "degree": 11
+    },
+    {
+      "id": "models_incident_incident",
+      "label": "Incident",
+      "degree": 11
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Tech Stack (Laravel/Inertia/React)",
+      "target": "Laravel 12 + Inertia + React Stack",
+      "source_files": [
+        "README.md",
+        "docs/TECH_RECOMMENDATIONS.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link; peripheral node `Tech Stack (Laravel/Inertia/React)` unexpectedly reaches hub `Laravel 12 + Inertia + React Stack`"
+    },
+    {
+      "source": "5x5 Risk Heatmap Logic",
+      "target": "RiskRegister",
+      "source_files": [
+        "docs/BACKEND_PLAN.md",
+        "app/Http/Controllers/RiskRegisterController.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "shares_data_with",
+      "why": "crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `5x5 Risk Heatmap Logic` unexpectedly reaches hub `RiskRegister`"
+    },
+    {
+      "source": "controls table",
+      "target": "RiskRegister",
+      "source_files": [
+        "docs/DATABASE_SCHEMA.md",
+        "app/Http/Controllers/RiskRegisterController.php"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `controls table` unexpectedly reaches hub `RiskRegister`"
+    },
+    {
+      "source": "RiskRegister",
+      "target": "kris table",
+      "source_files": [
+        "app/Http/Controllers/RiskRegisterController.php",
+        "docs/DATABASE_SCHEMA.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `kris table` unexpectedly reaches hub `RiskRegister`"
+    },
+    {
+      "source": "iGRaCias Platform",
+      "target": "GRC Integrated System",
+      "source_files": [
+        "README.md",
+        "docs/ARCHITECTURE.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "tokens": {
+    "input": 64121,
+    "output": 14803
+  }
+}
